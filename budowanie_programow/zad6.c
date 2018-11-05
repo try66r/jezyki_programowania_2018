@@ -1,3 +1,5 @@
+// Program oblicza pierwiastek kwadratowy z liczby nieujemnej.
+
 #include <stdio.h>
 #include <math.h>
 
