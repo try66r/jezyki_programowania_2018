@@ -33,21 +33,21 @@ void count_and_print_the_result(int *given_array)
   {
     if((*given_array % 3 == 0) && (*given_array % 5 == 0))
     {
-      printf("FizzBuzz, ");
+      printf("FizzBuzz");
     }
     else if(*given_array % 3 == 0)
     {
-      printf("Fizz, ");
+      printf("Fizz");
     }
     else if(*given_array % 5 == 0)
     {
-      printf("Buzz, ");
+      printf("Buzz");
     }
     else
     {
-      printf("%d, ", *given_array);
+      printf("%d", *given_array);
     }
     given_array++;
+    printf("\n");
   }
-  printf("\n");
 }
