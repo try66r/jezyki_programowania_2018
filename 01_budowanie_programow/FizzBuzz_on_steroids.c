@@ -29,7 +29,7 @@ void fill_the_array(int *array_to_fill)
 
 void count_and_print_the_result(int *given_array)
 {
-  while(*given_array <= SIZE_OF_THE_ARRAY)
+  while(*given_array <= SIZE_OF_THE_ARRAY) // Correct the condition(what to point to when range ends?, use pointer instead of value)
   {
     if((*given_array % 3 == 0) && (*given_array % 5 == 0))
     {
