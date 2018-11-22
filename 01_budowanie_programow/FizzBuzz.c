@@ -1,7 +1,7 @@
 // Program wypisuje Fizz dla liczb podzielnych przez 3,
 // Buzz dla liczb podzielnych przez 5, a FizzBuzz dla
 // liczb podzielnych przez 3 i 5 spośród liczb od 1
-// do 100
+// do 100 w pętli.
 
 #include<stdio.h>
 
