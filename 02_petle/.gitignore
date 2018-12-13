@@ -1,5 +1,6 @@
 # Mine
 el_1_zad4
+tankowanie
 zad1
 zad2
 zad3
@@ -11,6 +12,7 @@ zad8
 zad9
 zad10
 zad11
+*.txt
 
 # Prerequisites
 *.d
