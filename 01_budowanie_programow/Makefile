@@ -1,5 +1,7 @@
 CFLAGS = -Wall -std=c11
 LDLIBS = -lm
 
+all : zad6 zad7 zad8 zad9 FizzBuzz FizzBuzz2
+
 clean :
-	rm -f zad1 zad2 zad3 zad4 zad5 zad6 zad7 zad8 zad9 zad10 FizzBuzz FizzBuzz2
+	rm -f zad6 zad7 zad8 zad9 FizzBuzz FizzBuzz2
